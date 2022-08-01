@@ -121,22 +121,30 @@ footer{
     height: 40vh;
     padding-top: 15px;
     margin: auto;
+    width: 100%;
+    flex-direction: column;
+}
+footer .enlaces{
+    width: 100%;
+    margin: auto;
+    text-align: center;
 }
 .logob{
-    width: 5%;
-    height: 10px;
+    text-align: center;
     margin: auto;
-    display: block;
-    justify-content: center;
+    display: inline-block;
   }
   .enlaces{
-    display: block;
+    float: none;
+    display: inline-block;
     margin: auto;
-    justify-content: center;
+    text-align: center;
   }
  .enlaces ul li {
-    display: inline;
+    float: none;
+    display: inline-block;
     padding: 10px;
+    text-align: center;
   }
 
 footer a{
